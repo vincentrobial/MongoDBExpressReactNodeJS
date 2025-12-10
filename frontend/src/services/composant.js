@@ -9,7 +9,7 @@ class ComposantDataService {
     return http.get(`/id/${id}`);
   }
 
-  find(query, by = "name", page = 0) {
+  find(query, by = "nom", page = 0) {
     return http.get(`?${by}=${query}&page=${page}`);
   } 
 
