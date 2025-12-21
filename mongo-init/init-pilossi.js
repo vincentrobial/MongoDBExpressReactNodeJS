@@ -14,6 +14,7 @@ db.composants.insertMany([
       valeur: "v1.2.3",
       contenu: "bla bla bla bla bla bla"
     },
+    site: ["SBX", "CDG"],
     commentaire: "Ceci est un commentaire",
     responsable: {
       nom: "Vincent",
@@ -23,13 +24,13 @@ db.composants.insertMany([
       date_homologation: ISODate("2010-10-10T00:00:00Z"),
       duree_homologation: 5,
       jalons_atteints: {
-        evaluationSSI: ISODate("2010-10-10T00:00:00Z"),
+        evaluationSSI: ISODate("2026-10-10T00:00:00Z"),
         evalDATA: ISODate("2010-10-10T00:00:00Z"),
-        AR: ISODate("2010-10-10T00:00:00Z"),
+        AR: ISODate("2026-10-10T00:00:00Z"),
         audit: ISODate("2010-10-10T00:00:00Z"),
-        MSS: ISODate("2010-10-10T00:00:00Z"),
+        MSS: ISODate("2026-10-10T00:00:00Z"),
         comite: ISODate("2010-10-10T00:00:00Z"),
-        avis: ISODate("2010-10-10T00:00:00Z"),
+        avis: ISODate("2026-10-10T00:00:00Z"),
       }
     }
   },
@@ -41,6 +42,7 @@ db.composants.insertMany([
       valeur: "v4.5",
       contenu: "bla bla bla bla bla bla"
     },
+    site: ["TLS"],
     commentaire: "Ceci est un autre commentaire",
     responsable: {
       nom: "Hervé",
@@ -51,11 +53,11 @@ db.composants.insertMany([
       duree_homologation: 5,
       jalons_atteints: {
         evaluationSSI: ISODate("2010-10-10T00:00:00Z"),
-        evalDATA: ISODate("2010-10-10T00:00:00Z"),
+        evalDATA: ISODate("2026-10-10T00:00:00Z"),
         AR: ISODate("2010-10-10T00:00:00Z"),
-        audit: ISODate("2010-10-10T00:00:00Z"),
+        audit: ISODate("2026-10-10T00:00:00Z"),
         MSS: ISODate("2010-10-10T00:00:00Z"),
-        comite: ISODate("2010-10-10T00:00:00Z"),
+        comite: ISODate("2026-10-10T00:00:00Z"),
         avis: ISODate("2010-10-10T00:00:00Z"),
       }
     }
@@ -76,15 +78,6 @@ db.composants.insertMany([
     homologation: {
       date_homologation: ISODate("2010-10-10T00:00:00Z"),
       duree_homologation: 5,
-      jalons_atteints: {
-        evaluationSSI: ISODate("2010-10-10T00:00:00Z"),
-        evalDATA: ISODate("2010-10-10T00:00:00Z"),
-        AR: ISODate("2010-10-10T00:00:00Z"),
-        audit: ISODate("2010-10-10T00:00:00Z"),
-        MSS: ISODate("2010-10-10T00:00:00Z"),
-        comite: ISODate("2010-10-10T00:00:00Z"),
-        avis: ISODate("2010-10-10T00:00:00Z"),
-      }
     }
   }
 ]);
